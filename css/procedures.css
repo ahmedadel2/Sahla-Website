@@ -1,0 +1,56 @@
+.procedures {
+    padding: 100px 0px;
+}
+
+.procedures-title {
+    font-family: 'Markazi Text', serif;
+    font-size: 24px;
+}
+
+.procedures-card {
+    text-align: right !important;
+    transition-duration: 0.3s;
+}
+
+.procedures-card .card-body {
+    padding: 25px 20px 0px 20px;
+}
+
+.procedures-card .card-title {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 30px;
+    color: #0D0D0D;
+}
+
+.procedures-card .card-text {
+    font-family: 'Markazi Text', serif;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #333333;
+}
+
+.procedures-card:hover {
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.procedures-card-button {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #DFDFDF;
+    font-family: 'Markazi Text', serif;
+    font-size: 24px;
+    color: #0D0D0D !important;
+    text-decoration: none !important;
+}
+
+.procedures-card-button:hover {
+    color: #df193a !important;
+    transition-duration: 0.3s;
+}
+
+.procedures-card-button:hover i {
+    color: #df193a !important;
+    transition-duration: 0.3s;
+}

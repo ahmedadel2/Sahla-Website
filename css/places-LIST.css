@@ -1,0 +1,40 @@
+.places-title {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 30px;
+    padding-top: 100px;
+}
+
+.places-subtitle {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 30px;
+}
+
+.places-disc,
+.places-disc2 {
+    font-family: 'Markazi Text', serif;
+    font-size: 24px;
+    color: #0D0D0D;
+}
+
+.list-group {
+    list-style-type: none;
+}
+
+.itm {
+    border: 1px solid #DFDFDF;
+    padding: 10px;
+    margin: 0px 3px;
+    transition-duration: 0.3s;
+}
+
+.itm a {
+    font-family: 'Markazi Text', serif;
+    font-size: 24px;
+    color: #0D0D0D;
+    text-decoration: none;
+}
+
+.itm:hover a{
+    color: #DF193A;
+    text-decoration: underline;
+}

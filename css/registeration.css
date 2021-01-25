@@ -1,0 +1,149 @@
+.error {
+    width: 92%;
+    margin: 25px auto;
+    padding: 15px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: right;
+    font-family: 'Markazi Text', serif;
+    font-size: 18px;
+}
+
+.success {
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+
+.registration-main {
+    overflow: hidden;
+    margin: 250px 0px;
+    width: 70%;
+    margin: auto;
+    position: absolute;
+    top: 7.5%;
+    right: 15%;
+    padding: 30px;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    background-color: #F2F2F2;
+}
+
+.registration-form {
+    padding: 40px;
+    width: 50%;
+    margin: auto;
+}
+
+.registration-title {
+    font-family: 'Lemonada', cursive;
+    font-size: 30px;
+    line-height: 64px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.register-form-label {
+    font-family: 'Markazi Text', serif;
+    font-size: 24px;
+    text-align: left;
+}
+
+.register-form-input {
+    border: #666666 solid 0.5px;
+    border-radius: 5px;
+    direction: RTL
+}
+
+.register-form-input:focus {
+    box-shadow: none;
+    border: #DF193A solid 0.5px;
+}
+
+.register-form-input input::placeholder {
+    text-align: right;
+    font-family: 'Markazi Text', serif;
+    font-size: 19px;
+}
+
+.register-form-btn {
+    background-color: #14284B;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 2.5rem;
+    font-family: 'Markazi Text', serif;
+    font-size: 20px;
+    color: #F2F2F2;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.register-form-btn:hover {
+    background-color: #DF193A;
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.already-member {
+    font-family: 'Markazi Text', serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.already-member-link {
+    text-decoration: none;
+    color: blue;
+    transition-duration: 0.3s;
+}
+
+.already-member-link:hover {
+    color: #DF193A;
+    text-decoration: underline;
+}
+
+.profile-main {
+    overflow: hidden;
+    margin: 250px 0px;
+    width: 70%;
+    margin: 57px auto;
+    padding: 30px;
+    border: 2px solid #000000;
+    border-radius: 25px;
+}
+
+.profile-title {
+    font-family: 'Lemonada', cursive;
+    font-size: 30px;
+    line-height: 64px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/*
+.profile-welcome {
+    font-family: 'Lemonada', cursive;
+    font-size: 30px;
+    line-height: 64px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+*/
+
+.profile-image {
+    width: 10%;
+    border-radius: 50%;
+    float: right;
+    margin-bottom: 25px;
+}
+
+.profile-label {
+    font-family: 'Markazi Text', serif;
+    font-size: 24px;
+    text-align: right;
+}

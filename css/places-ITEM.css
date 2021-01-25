@@ -1,0 +1,48 @@
+.show-location-home {
+    overflow: hidden;
+    padding: 100px 0px !important;
+}
+
+.show-location-title {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 30px;
+}
+
+.show-location-subtitle {
+    font-family: 'Markazi Text', serif;
+    font-size: 24px;
+    color: #0D0D0D;
+}
+
+.show-location-info {
+    border: 3px #0D0D0D solid;
+}
+
+.show-location-location {
+    padding: 22.5px;
+    background-color: #F2F2F2;
+    border-bottom: 1.5px #0D0D0D solid;
+}
+
+.show-location-worktime {
+    padding: 22.5px;
+    background-color: #F2F2F2;
+    border-top: 1.5px #0D0D0D solid;
+}
+
+.show-location-map iframe
+{
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.show-location-card-title {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 28px;
+}
+
+.show-location-card-subtitle {
+    font-family: 'Markazi Text', serif;
+    font-size: 22px;
+    color: #0D0D0D;
+}

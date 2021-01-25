@@ -1,0 +1,63 @@
+.on-services-main {
+    overflow: hidden;
+    padding: 5% 0;
+}
+
+.online-services-header {
+    padding-bottom: 30px;
+    text-align-last: right;
+    font-family: 'Markazi Text', serif;
+    font-size: 20px;
+    color: #F2F2F2;
+}
+
+.main-title {
+    text-align-last: right;
+    font-family: 'Tajawal', sans-serif !important;
+    font-size: 32px;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+.delivery-form {
+    width: 50%;
+}
+
+.online-services-button {
+    float: left;
+}
+
+.online-services-button {
+    background-color: #14284B;
+    border-radius: 0px;
+    padding: 10px 2.5rem;
+    font-family: 'Markazi Text', serif;
+    font-size: 20px;
+    color: #F2F2F2;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    margin-top: 15px;
+}
+
+.online-services-button:hover {
+    background-color: #DF193A !important;
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.online-services-form input {
+    border: #666666 solid 0.5px;
+    border-radius: 5px;
+    direction: RTL
+}
+
+.online-services-form input:focus {
+    box-shadow: none;
+    border: #DF193A solid 0.5px;
+}
+
+.online-services-form input::placeholder {
+    text-align: right;
+    font-family: 'Markazi Text', serif;
+    font-size: 19px;
+}

@@ -1,0 +1,423 @@
+/*GENERAL CSS*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    direction: rtl;
+}
+
+.clr {
+    clear: both;
+}
+
+/*LINE CSS*/
+.separator {
+    position: relative;
+    height: 0;
+    width: 26px;
+    margin: 0 auto;
+}
+
+.separator .cir {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #DF193A;
+    border-radius: 50%;
+}
+
+.separator .c-1 {
+    left: 0;
+}
+
+.separator .c-2 {
+    left: 7px;
+    background: #DF193A;
+}
+
+.separator .c-3 {
+    left: auto;
+    right: 0;
+}
+
+.separator:before {
+    content: '';
+    position: absolute;
+    top: -7px;
+    left: 100%;
+    margin-left: 10px;
+    width: 36px;
+    border-bottom: 2px solid #DF193A;
+}
+
+.separator:after {
+    content: '';
+    position: absolute;
+    top: -7px;
+    right: 100%;
+    margin-right: 10px;
+    width: 36px;
+    border-bottom: 2px solid #DF193A;
+}
+
+/*SIDE LINE CSS*/
+.sub-separator {
+    position: relative;
+    height: 0;
+    width: 26px;
+    margin-right: 0 auto;
+}
+
+.sub-separator .cir {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #DF193A;
+    border-radius: 50%;
+}
+
+.sub-separator .c-1 {
+    left: 0;
+}
+
+.sub-separator .c-2 {
+    left: 7px;
+    background: #DF193A;
+}
+
+.sub-separator .c-3 {
+    left: auto;
+    right: 0;
+}
+
+.sub-separator:after {
+    content: '';
+    position: absolute;
+    top: -7px;
+    right: 100%;
+    margin-right: 10px;
+    width: 36px;
+    border-bottom: 2px solid #DF193A;
+}
+
+/* COLOR THEME */
+.formal-1-hex {
+    color: #14284B;
+}
+
+.formal-2-hex {
+    color: #DF193A;
+}
+
+.formal-3-hex {
+    color: #F2F2F2;
+}
+
+.formal-4-hex {
+    color: #0D0D0D;
+}
+
+/*NAV BAR CSS*/
+.navbar {
+    background-color: #14284B;
+    width: 100%;
+    z-index: 8128;
+    position: static !important;
+}
+
+.navbar-brand {
+    font-family: 'Lemonada', cursive;
+    font-size: 35px;
+    color: #F2F2F2;
+}
+
+.navbar-brand:hover {
+    color: #F2F2F2;
+}
+
+.navbar-toggler-button {
+    color: #F2F2F2;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Markazi Text', serif;
+    font-size: 22px;
+    color: #F2F2F2;
+    transition-duration: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #DF193A;
+}
+
+/*END OF NAV BAR CSS*/
+
+/*MAIN CSS*/
+
+/*START OF HOME CSS*/
+.home {
+    overflow: hidden;
+    position: relative;
+    background: url(assets/home_image_4.jpeg) no-repeat center center;
+    background-size: cover;
+    padding: 362px;
+}
+
+.home-layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: table;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.home-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.home-title h3 {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 30px;
+    line-height: 64px;
+    color: #F2F2F2;
+}
+
+.home-buttons {
+    margin-top: 60px;
+}
+
+.btn-home {
+    background-color: #14284B;
+    border-radius: 0px;
+    padding: 10px 2.5rem;
+    font-family: 'Markazi Text', serif;
+    font-size: 20px;
+    color: #F2F2F2;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+.btn-home:hover {
+    background-color: #DF193A;
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+/*END OF HOME CSS*/
+/*START OF ABOUT CSS*/
+#about {
+    overflow: hidden;
+}
+
+.aboutTitle {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 30px;
+    padding-top: 100px;
+}
+
+.about-explaining {
+    font-family: 'Markazi Text', serif;
+    font-size: 24px;
+    color: #0D0D0D;
+}
+
+.about-card .cardImg {
+    height: 250px;
+}
+
+.about-card .card-title {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 26px;
+}
+
+.about-card .card-text {
+    font-family: 'Markazi Text', serif;
+    font-size: 20px;
+    color: #666666;
+}
+
+/*END OF ABOUT CSS*/
+/*START OF COMMENTS CSS*/
+.comments {
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.comments-title {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 30px;
+    padding-top: 100px;
+}
+
+.carousel {
+    border: #DF193A 5px solid !important;
+    border-top-right-radius: 50px !important;
+    border-bottom-left-radius: 50px !important;
+}
+
+.comment-user-icon {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.comment-card-user-name {
+    font-family: 'Markazi Text', serif;
+    font-size: 26px;
+    line-height: 33.6px;
+    color: #0D0D0D;
+}
+
+.comment-card-user-comment {
+    font-family: 'Markazi Text', serif;
+    font-size: 22px;
+    line-height: 24px;
+    color: #333333;
+}
+
+/*END OF COMMENTS CSS*/
+/*START OF CONTACT CSS*/
+.contact {
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.contact-title {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 30px;
+    padding-top: 100px;
+}
+
+.contact-form {
+    margin: auto;
+    width: 80%;
+}
+
+.contact-form input {
+    border: #666666 solid 0.5px;
+    border-radius: 0px;
+    direction: RTL
+}
+
+.contact-form input:focus {
+    box-shadow: none;
+    border: #DF193A solid 0.5px;
+}
+
+.contact-form input::placeholder {
+    text-align: right;
+    font-family: 'Markazi Text', serif;
+    font-size: 19px;
+}
+
+.contact-form textarea {
+    border: none;
+    border-radius: 0;
+    border-bottom: #666666 solid 0.5px;
+    direction: RTL
+}
+
+.contact-form textarea:focus {
+    box-shadow: none;
+    border-bottom: #DF193A solid 0.5px;
+}
+
+.contact-form textarea::placeholder {
+    text-align: right;
+    font-family: 'Markazi Text', serif;
+    font-size: 19px;
+}
+
+.contact-form-button {
+    border-radius: 0;
+    background-color: #14284B;
+    font-family: 'Markazi Text', serif;
+    font-size: 22px;
+    color: #F2F2F2;
+    padding: 5px 50px;
+    transition-duration: 0.3s;
+}
+
+.contact-form-button:hover {
+    background-color: #DF193A;
+    color: #F2F2F2;
+}
+
+/*END OF CONTACT CSS*/
+/*START OF FOOTER CSS*/
+.footer {
+    width: 100%;
+    background-color: #14284B;
+}
+
+.footer-col-2 {
+    border-right: solid #F2F2F2 2px;
+}
+
+.footer-col-title {
+    text-align-last: right;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 24px;
+    color: #F2F2F2;
+    margin-bottom: 15px;
+}
+
+.footer-span {
+    text-align-last: right;
+    font-family: 'Markazi Text', serif;
+    font-size: 20px;
+    color: #F2F2F2;
+    margin: 5px 0px !important;
+}
+
+.footer span {
+    display: block;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #F2F2F2;
+    transition-duration: 0.3s;
+}
+
+.footer a:hover {
+    color: #DF193A;
+    text-decoration: underline;
+}
+
+.rights-saved {
+    margin: auto;
+    text-align: center;
+}
+
+/*END OF FOOTER CSS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logout:hover
+{
+    color: #F2F2F2 !important;
+}

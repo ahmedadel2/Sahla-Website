@@ -1,0 +1,140 @@
+/*
+.contact-lobby {
+    height: 100vh;
+    width: 100%;
+    direction: rtl !important;
+    padding: 10px;
+    margin: 100px 0px;
+}
+
+.contact-form {
+    overflow: hidden;
+    width: 50%;
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #F0F0F0;
+    border: 1px solid #DF193A;
+    border-radius: 50px;
+    box-shadow: 0 8px 6px -6px black;
+    text-align: right;
+}
+
+.contact-form input:focus {
+    box-shadow: 0 8px 6px -6px #DF193A;
+    border: #DF193A solid 0.5px;
+}
+
+.contact-form label {
+    float: right;
+    font-family: 'Markazi Text', serif;
+    font-size: 20px;
+}
+
+.contact-form button {
+    float: left;
+    background-color: #14284B;
+    border-radius: 50px;
+    padding: 10px 2.5rem;
+    font-family: 'Markazi Text', serif;
+    font-size: 20px;
+    color: #F2F2F2;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #DF193A;
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+#rl-error {
+    background-color: tomato;
+    font-family: 'Markazi Text', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#rl-error:empty {
+    display: none;
+    background-color: transparent !important;
+}
+*/
+
+.contact-main {
+    overflow: hidden;
+    margin: 250px 0px;
+    width: 70%;
+    margin: 75px auto;
+    padding: 30px;
+    border: 2px solid #000000;
+    border-radius: 25px;
+}
+
+.alert {
+    font-family: 'Markazi Text', serif;
+    font-size: 20px;
+}
+
+.contact-title {
+    font-family: 'Lemonada', cursive;
+    font-size: 30px;
+    line-height: 64px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contact-form-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contact-form-title h2 {
+    font-family: 'Lemonada', cursive;
+    font-size: 30px;
+    line-height: 64px;
+}
+
+.contact-form
+{
+    padding: 15px;
+    width: 100% !important;
+}
+
+.contact-form-button {
+    background-color: #14284B;
+    border-radius: 0px;
+    padding: 10px 2.5rem;
+    font-family: 'Markazi Text', serif;
+    font-size: 20px;
+    color: #F2F2F2;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    margin-top: 15px;
+    border: none;
+}
+
+.contact-form-button:hover {
+    background-color: #DF193A !important;
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.contact-form input {
+    border: #666666 solid 0.5px;
+    border-radius: 5px;
+    direction: RTL;
+    border-radius: 5px !important;
+}
+
+.contact-form input:focus {
+    box-shadow: none;
+    border: #DF193A solid 0.5px;
+}
+
+.contact-form input::placeholder {
+    text-align: right;
+    font-family: 'Markazi Text', serif;
+    font-size: 19px;
+}
